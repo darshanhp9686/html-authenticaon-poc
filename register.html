@@ -2,33 +2,32 @@
 <html>
 <head>
     <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="card">
+        <h1>Register</h1>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Full name" required>
 
-    <h1>Registration</h1>
+            <label>Email ID</label>
+            <input type="email" placeholder="Email address" required>
 
-    <form>
-        <label>Name:</label><br>
-        <input type="text" required><br><br>
+            <label>Phone No</label>
+            <input type="tel" placeholder="Phone number" required>
 
-        <label>Email ID:</label><br>
-        <input type="email" required><br><br>
+            <label>Password</label>
+            <input type="password" placeholder="Create password" required>
 
-        <label>Phone No:</label><br>
-        <input type="tel" required><br><br>
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm password" required>
 
-        <label>Password:</label><br>
-        <input type="password" required><br><br>
-
-        <label>Confirm Password:</label><br>
-        <input type="password" required><br><br>
-
-        <a href="login.html">Register</a>
-    </form>
-
-    <p>
-        <a href="login.html">Already have an account? Login</a>
-    </p>
-
+            <a href="login.html" class="btn">Register</a>
+        </form>
+        <div class="links">
+            <a href="login.html">Already have an account? Login</a>
+        </div>
+    </div>
 </body>
 </html>

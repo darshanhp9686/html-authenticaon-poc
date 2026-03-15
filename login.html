@@ -2,28 +2,24 @@
 <html>
 <head>
     <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="card">
+        <h1>Login</h1>
+        <form>
+            <label>Username</label>
+            <input type="text" placeholder="Enter username" required>
 
-    <h1>Login</h1>
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" required>
 
-    <form>
-        <label>Username:</label><br>
-        <input type="text" required><br><br>
-
-        <label>Password:</label><br>
-        <input type="password" required><br><br>
-
-        <a href="dashboard.html">Login</a>
-    </form>
-
-    <p>
-        <a href="forgot.html">Forgot Password?</a>
-    </p>
-
-    <p>
-        <a href="register.html">Create New Account</a>
-    </p>
-
+            <a href="dashboard.html" class="btn">Login</a>
+        </form>
+        <div class="links">
+            <a href="forgot.html">Forgot Password?</a> &nbsp;|&nbsp;
+            <a href="register.html">Create Account</a>
+        </div>
+    </div>
 </body>
 </html>
