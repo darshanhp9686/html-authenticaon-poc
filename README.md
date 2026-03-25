@@ -81,14 +81,22 @@ auth-project/
 
 ## 📸 Screenshots
 
-Create a folder named **`screenshots`** and add the following images:
+## 📸 Screenshots
 
-- `login.png`  
-- `register.png`  
-- `forgot-password.png`  
-- `reset-password.png`  
-- `dashboard.png`  
+### Login Page
+![Login](screenshots/login.png)
 
+### Register Page
+![Register](screenshots/register.png)
+
+### Forgot Password
+![Forgot](screenshots/forgot-password.png)
+
+### Reset Password
+![Reset](screenshots/reset-password.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 ---
 
 ## 🛠 Technologies Used
