@@ -83,11 +83,11 @@ auth-project/
 
 Create a folder named **`screenshots`** and add the following images:
 
-- `login.png`  
-- `register.png`  
-- `forgot-password.png`  
-- `reset-password.png`  
-- `dashboard.png`  
+- `login.jpg`  
+- `register.jpg`  
+- `forgot-password.jpg`  
+- `reset-password.jpg`  
+- `dashboard.jpg`  
 
 ---
 
