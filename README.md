@@ -1,25 +1,26 @@
-# HTML Authentication System (Frontend Only)
+# Authentication System (Frontend Only)
 
-## 📘 Course Project Overview
+## 📌 Project Overview
 
-This project is a beginner-friendly HTML authentication system built as part of learning web development fundamentals.
+This project is a simple authentication system UI built using:
 
-It demonstrates how a typical authentication flow works in terms of **user interface and navigation**, including:
+- HTML5  
+- Bootstrap 5  
+- Custom CSS  
 
-- Login
-- Registration
-- Forgot Password
-- Reset Password
-- Dashboard
-- Logout
+It demonstrates the basic flow of an authentication system:
 
-⚠️ This project is frontend-only and does NOT include backend logic or database functionality.
+- Login  
+- Register  
+- Forgot Password  
+- Reset Password  
+- Dashboard  
+
+⚠️ This is a frontend-only project (no backend functionality).
 
 ---
 
-# 📁 Project Structure
-
-```
+## 📁 Project Structure
 auth-project/
 │
 ├── login.html
@@ -27,145 +28,100 @@ auth-project/
 ├── forgot-password.html
 ├── reset-password.html
 ├── dashboard.html
-└── README.md
-```
+├── styles.css
+├── README.md
+└── screenshots/
 
 ---
 
-# 📄 Pages Included
+## 🚀 Features
 
-## 1️⃣ Login Page (`login.html`)
-
-**Purpose:**  
-Allows users to enter their email and password.
-
-**Features:**
-- Email input (`type="email"`)
-- Password input (`type="password"`)
-- Required field validation
-- Submit button
+- Responsive design (Mobile, Tablet, Desktop)
+- Bootstrap card layout
+- Clean and simple UI
+- Form validation using HTML
+- Navigation between all pages
+- Password visibility toggle (Reset Page)
+- Dashboard with navbar and logout button
 
 ---
 
-## 2️⃣ Register Page (`register.html`)
+## 📄 Pages Description
 
-**Purpose:**  
-Allows new users to create an account.
-
-**Fields:**
-- Name
-- Email
-- Password
-
-**Features:**
-- Required validation
-- Minimum password length
-- Redirects to login page after submission (UI only)
+### 🔐 Login Page (`login.html`)
+- User enters email and password
+- Redirects to dashboard after login
 
 ---
 
-## 3️⃣ Forgot Password Page (`forgot-password.html`)
-
-**Purpose:**  
-Allows users to request a password reset.
-
-**Features:**
-- Email input field
-- Submit button
-- Simulated reset process (UI only)
+### 📝 Register Page (`register.html`)
+- User enters details to register
+- Redirects to login page after submission
 
 ---
 
-## 4️⃣ Reset Password Page (`reset-password.html`)
-
-**Purpose:**  
-Allows users to enter a new password.
-
-**Fields:**
-- New Password
-- Confirm Password
-
-**Features:**
-- Required validation
-- Minimum length validation
-- Redirects to login page (UI only)
+### 🔁 Forgot Password (`forgot-password.html`)
+- User enters email
+- Redirects to reset password page
 
 ---
 
-## 5️⃣ Dashboard Page (`dashboard.html`)
-
-**Purpose:**  
-Landing page after login.
-
-**Features:**
-- Welcome message
-- Logout button
-- Redirect to login page
-
-⚠️ No session protection is implemented.
+### 🔑 Reset Password (`reset-password.html`)
+- User sets new password
+- Includes password visibility toggle
+- Redirects to login page
 
 ---
 
-# 🛠 Technologies Used
-
-- HTML5
-- Basic Form Validation
-- Multi-page navigation
+### 📊 Dashboard (`dashboard.html`)
+- Welcome message displayed
+- Logout button redirects to login page
 
 ---
 
-# 🎯 Learning Objectives
+## 📸 Screenshots
 
-This course project helps you understand:
+Create a folder named **`screenshots`** and add the following images:
 
-- How HTML forms work
-- The purpose of `method` and `action`
-- Input types (`email`, `password`, `text`)
-- Form validation using `required` and `minlength`
-- Page linking and navigation
-- Structure of an authentication flow
+- `login.png`  
+- `register.png`  
+- `forgot-password.png`  
+- `reset-password.png`  
+- `dashboard.png`  
 
 ---
 
-# ⚠️ Important Notes
+## 🛠 Technologies Used
+
+- HTML5  
+- Bootstrap 5  
+- CSS3  
+
+---
+
+## ⚠️ Important Note
 
 This project does NOT include:
 
-- Backend programming
-- Database storage
-- Real login authentication
-- Password hashing
-- Email sending
-- Session handling
-- Security protection
+- Backend (Node.js / PHP / Python)
+- Database
+- Real authentication
+- Session management
 
-Anyone can manually open `dashboard.html`.
+All navigation is simulated using HTML forms and links.
 
 ---
 
-# 🚀 Future Improvements
+## 🎯 Purpose
 
-To convert this into a real authentication system, you can add:
+This project is created for:
 
-- Backend (PHP / Node.js / Python)
-- MySQL or MongoDB database
-- Password hashing (bcrypt)
-- Session-based authentication
-- Secure password reset tokens
-- JavaScript validation
-- CSS styling for professional UI
+- Learning frontend development
+- Understanding authentication UI flow
+- Practice with Bootstrap
 
 ---
 
-# 📌 Ideal For
+## 👨‍💻 Author
 
-- Beginners learning HTML
-- Students building their first web forms
-- Practice for authentication flow structure
-- Frontend form practice before learning backend
-
----
-
-# 👨‍💻 Author
-
-Created as part of a web development learning course focused on understanding authentication page structure using HTML.
+Created as part of a Full Stack Development course.
